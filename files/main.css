@@ -2,6 +2,25 @@ body {
     background-color: black;
 }
 
-#loading-output {
+#text-output {
+    font-family: "Consolas", "Courier", monospace;
     color: white;
+}
+
+.text-output-error {
+    color: red;
+    border-width: 1mm;
+    border-color: red;
+    border-left-style: solid;
+    white-space: pre-wrap;
+    padding-left: 2mm;
+    margin: 2mm;
+}
+
+.text-output-list {
+    border-width: 1mm;
+    border-left-style: solid;
+    white-space: pre-wrap;
+    padding-left: 2mm;
+    margin: 2mm;
 }
