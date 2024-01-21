@@ -3,16 +3,16 @@ import sys
 import js
 
 print(\
-    "hello from hello.py:" + "<br/>" +\
-    "<div class=\"text-output-list\">" +\
+    "hello from hello.py:<br/>" +\
+    "<div class=\"text-output-block\">" +\
         "this is python " + " ".join(sys.version.split()[:6]) + "<br/>" +\
         "running on " + sys.platform + "<br/>" +\
-        "as __name__ ==" + __name__ +\
+        "as __name__ == " + __name__ +\
     "</div>"\
     )
 print(\
-    "emfs root:" + "<br/>" +\
-    "<div class=\"text-output-list\">" +\
+    "emfs root:<br/>" +\
+    "<div class=\"text-output-block\">" +\
         ("<br/>".join(os.listdir())).rstrip() +\
     "</div>"\
     )

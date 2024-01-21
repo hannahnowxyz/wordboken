@@ -7,18 +7,18 @@ body {
     color: white;
 }
 
-.text-output-error {
-    color: red;
+.text-output-block {
     border-width: 1mm;
-    border-color: red;
     border-left-style: solid;
     white-space: pre-wrap;
     padding-left: 2mm;
     margin: 2mm;
 }
 
-.text-output-list {
+.text-output-error {
+    color: red;
     border-width: 1mm;
+    border-color: red;
     border-left-style: solid;
     white-space: pre-wrap;
     padding-left: 2mm;
